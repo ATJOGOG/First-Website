@@ -7,5 +7,5 @@ Color palette:
 Header font: Franklin Gothic Medium
 Header color: #ffffff
 
-Text font: Comic Sans
+Text font: serif
 Text color: #ffffff
