@@ -17,7 +17,7 @@
     background-color: #939B62;
 }
 
-.centered-content {
+.main-page-centered-content {
     display: flex;
     flex-direction: column;
     row-gap: 5vh;
