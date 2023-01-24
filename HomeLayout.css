@@ -1,0 +1,6 @@
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vh;
+    background-color: #FFB26B;
+}
