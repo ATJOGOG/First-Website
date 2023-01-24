@@ -1,3 +1,7 @@
+#html-body {
+    background-color: #FFD56F;
+}
+
 .navigation-bar {
     display: flex;
     justify-content: space-between;
