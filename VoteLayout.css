@@ -16,3 +16,15 @@
     padding: 1vh 4vw;
     background-color: #939B62;
 }
+
+.main-page-container {
+    padding: 4vh 4vw;
+    margin: 2vh 2vw;
+    background-color: #FF7B54;
+}
+
+.main-page-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
