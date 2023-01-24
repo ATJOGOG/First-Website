@@ -41,11 +41,40 @@
 }
 
 .testimonial > h2 {
-    border: medium solid red;
     text-align: center;
-    margin-top: 0;
+    margin: 0;
     color: white;
     font-family: serif;
     background-color: #939B62;
     padding: 1vh 1vw;
+}
+
+.content-row {
+    display: inline-flex;
+    justify-content: space-around;
+    column-gap: 5%;
+    margin: 2vh 3vw;
+}
+
+.content-row-card {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: #FFB26B;
+}
+
+.content-row-card > h3 {
+    text-align: center;
+    color: white;
+    font-family: serif;
+    padding: 0.25vh 0vw;
+    margin: 0 0;
+    background-color: #939B62;
+}
+
+.content-row-card > p {
+    font-family: serif;
+    margin: auto;
+    text-align: center;
+    padding: 5vh 2vw;
 }
