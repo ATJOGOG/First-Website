@@ -33,3 +33,19 @@
     font-family: Franklin Gothic Medium;
     background-color: #939B62;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFD56F;
+}
+
+.testimonial > h2 {
+    border: medium solid red;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-family: serif;
+    background-color: #939B62;
+    padding: 1vh 1vw;
+}
