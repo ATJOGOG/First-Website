@@ -12,3 +12,9 @@
     padding: 1vh 3vh;
     background-color: #939B62;
 }
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF7B54 ;
+}
