@@ -20,7 +20,16 @@
 .centered-content {
     display: flex;
     flex-direction: column;
+    row-gap: 5vh;
     padding: 1vh 4vh;
     margin: 2vh 2vh;
     background-color: #FF7B54 ;
+}
+
+.main-heading {
+    text-align: center;
+    color: white;
+    padding: 3vh;
+    font-family: Franklin Gothic Medium;
+    background-color: #939B62;
 }
