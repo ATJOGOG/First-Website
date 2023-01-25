@@ -21,19 +21,61 @@
 .main-page-centered-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    row-gap: 5vh;
     padding: 4vh 4vw;
     margin: 2vh 2vw;
+    row-gap: 50%;
+    height: 80vh;
     background-color: #FF7B54;
 }
 
-#main-heading {
+#main-heading-container {
     text-align: center;
     color: white;
     padding: 3vh;
     margin: auto 0;
     font-family: Franklin Gothic Medium;
+    background-color: #939B62;
+    border: medium solid black;
+}
+
+.title-list-pair {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    border: medium solid black;
+}
+
+.title-list-pair > h2 {
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: serif;
+    background-color: #939B62;
+    padding: 1vh 1vw;
+}
+
+.title-list-pair > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    font-family: serif;
+    margin: auto 0;
+    padding: 5vh 2vw;
+    list-style-position:inside;
+    list-style: none;
+    background-color: #FFB26B;
+}
+
+.title-list-pair > ul > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
+    width: 15vw;
+    color: white;
     background-color: #939B62;
     border: medium solid black;
 }
