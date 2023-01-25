@@ -23,8 +23,7 @@
     flex-direction: column;
     padding: 4vh 4vw;
     margin: 2vh 2vw;
-    row-gap: auto;
-    height: 80vh;
+    row-gap: 5vh;
     background-color: #FF7B54;
 }
 
