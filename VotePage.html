@@ -18,19 +18,19 @@
                 <fieldset class="fieldset">
                     <legend>Favorite Character Submission</legend>
 
-                    <label>
-                        First Name
-                        <input type="text" id="firstName" name="first_name">
-                    </label>
+                    <div class="title-input-pair">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-Name" name="first_name" class="input-field">
+                    </div>
 
-                    <label>
-                        Last Name
-                        <input type="text" id="lastname" name="lastname">
-                    </label>
+                    <div class="title-input-pair">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lastname" class="input-field">
+                    </div>
 
-                    <label>
-                        Favorite Character
-                        <select id="favoritecharacter" name="favoritecharacter">
+                    <div class="title-input-pair">
+                        <label for="favorite-character">Favorite Character</label>
+                        <select id="favorite-character" name="favoritecharacter" class="input-field">
                             <option value="tien">Tien</option>
                             <option value="master-roshi">Master Roshi</option>
                             <option value="goku">Goku</option>
@@ -38,23 +38,19 @@
                             <option value="yamcha">Yamcha</option>
                             <option value="vegeta">Vegeta</option>
                         </select>
-                    </label>
+                    </div>
 
-                    <label>
-                        Why do you feel this way?
-                        <textarea id="favorite_console_response" name="response" rows="5" cols="30" minlength="25" maxlength="1000" required></textarea>
-                    </label>
+                    <div class="title-text-area-pair">
+                        <label for="favorite_console_response">Why do you feel this way?</label>
+                        <textarea id="favorite_console_response" name="response" rows="10" cols="100" minlength="25" maxlength="1000" required></textarea>
+                    </div>
 
                     <div>
-                        <label>
-                            Agree to terms
-                            <input type="checkbox" id="agree-to-terms" name="agree-to-terms" required>
-                        </label>
+                        <label for="agree-to-terms">Agree to terms</label>
+                        <input type="checkbox" id="agree-to-terms" name="agree-to-terms" required>
 
-                        <label>
-                            Today's date
-                            <input type="date" id="date-input" name="date">
-                        </label>
+                        <label for="date-input">Today's date</label>
+                        <input type="date" id="date-input" name="date">
                     </div>
 
                     <label>

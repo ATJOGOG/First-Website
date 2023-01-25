@@ -28,6 +28,7 @@ fieldset {
     flex-direction: column;
     align-items: center;
     row-gap: 5vh;
+    padding: 4vh 4vw;
     background-color: #FFB26B;
 }
 
@@ -38,4 +39,48 @@ fieldset > legend {
     color: white;
     font-family: serif;
     background-color: #939B62;
+}
+
+.title-input-pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5vh;
+    width: 30vw;
+    background-color: #939B62;
+}
+
+.title-input-pair > label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+    color: white;
+    background-color: #939B62;
+    margin: auto 0;
+}
+
+.title-input-pair > .input-field {
+    font-size: large;
+    height: 2vh;
+}
+
+.title-text-area-pair {
+    display: flex;
+    flex-direction: column;
+    background-color: #939B62;
+}
+
+.title-text-area-pair > label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    color: white;
+    margin: auto;
+    background-color: #939B62;
+}
+
+.title-text-area-pair > textarea {
+    object-fit: fill;
 }
