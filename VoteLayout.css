@@ -30,7 +30,7 @@ form {
 }
 
 .main-page-container {
-    border: medium solid red;
+    background-color: #FFB26B;
     display: flex;
     flex-flow: column;
     align-items: center;
