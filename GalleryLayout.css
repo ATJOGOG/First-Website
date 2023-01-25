@@ -21,19 +21,20 @@
 
 .two-by-three-grid {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    margin: 3vh 5vw;
+    margin: 2vh 2vw;
     background-color: #FF7B54;
 }
 
 .description-card {
-    margin: 10% 3%;
-    padding: 10% 0;
+    margin: 2vh 2vw;
+    border: medium solid black;
 }
 
 .description-card  > img {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 25vh;
 }
