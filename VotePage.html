@@ -13,51 +13,52 @@
             <a href="ResourcesPage.html">Resources</a>
         </div>
 
-        <div class="main-page-container">
-            <form action="some-url" method="post">
-                <fieldset class="fieldset">
+        <form action="some-url" method="post">
+            <div class="fieldset-container">
+                <fieldset>
                     <legend>Favorite Character Submission</legend>
+                    <div class="main-page-container">
+                        <div class="title-input-pair">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-Name" name="first_name" class="input-field">
+                        </div>
 
-                    <div class="title-input-pair">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-Name" name="first_name" class="input-field">
+                        <div class="title-input-pair">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="lastname" class="input-field">
+                        </div>
+
+                        <div class="title-input-pair">
+                            <label for="favorite-character">Favorite Character</label>
+                            <select id="favorite-character" name="favoritecharacter" class="input-field">
+                                <option value="tien">Tien</option>
+                                <option value="master-roshi">Master Roshi</option>
+                                <option value="goku">Goku</option>
+                                <option value="krillin">Krillin</option>
+                                <option value="yamcha">Yamcha</option>
+                                <option value="vegeta">Vegeta</option>
+                            </select>
+                        </div>
+
+                        <div class="title-text-area-pair">
+                            <label for="favorite_console_response">Why do you feel this way?</label>
+                            <textarea id="favorite_console_response" name="response" rows="10" cols="50" minlength="25" maxlength="1000" required></textarea>
+                        </div>
+
+                        <div>
+                            <label for="agree-to-terms">Agree to terms</label>
+                            <input type="checkbox" id="agree-to-terms" name="agree-to-terms" required>
+
+                            <label for="date-input">Today's date</label>
+                            <input type="date" id="date-input" name="date">
+                        </div>
+
+                        <label>
+                            <button type="submit">Submit</button>
+                        </label>
                     </div>
-
-                    <div class="title-input-pair">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="lastname" class="input-field">
-                    </div>
-
-                    <div class="title-input-pair">
-                        <label for="favorite-character">Favorite Character</label>
-                        <select id="favorite-character" name="favoritecharacter" class="input-field">
-                            <option value="tien">Tien</option>
-                            <option value="master-roshi">Master Roshi</option>
-                            <option value="goku">Goku</option>
-                            <option value="krillin">Krillin</option>
-                            <option value="yamcha">Yamcha</option>
-                            <option value="vegeta">Vegeta</option>
-                        </select>
-                    </div>
-
-                    <div class="title-text-area-pair">
-                        <label for="favorite_console_response">Why do you feel this way?</label>
-                        <textarea id="favorite_console_response" name="response" rows="10" cols="100" minlength="25" maxlength="1000" required></textarea>
-                    </div>
-
-                    <div>
-                        <label for="agree-to-terms">Agree to terms</label>
-                        <input type="checkbox" id="agree-to-terms" name="agree-to-terms" required>
-
-                        <label for="date-input">Today's date</label>
-                        <input type="date" id="date-input" name="date">
-                    </div>
-
-                    <label>
-                        <button type="submit">Submit</button>
-                    </label>
                 </fieldset>
-            </form>
-        </div>
+            </div>
+        </form>
     </body>
 </html>
